@@ -1,0 +1,24 @@
+<div class="container">
+  <h1>Welcome to Anagrams!</h1>
+  <% if @error %>
+    <p><%= @error %></p>
+  <% end %>
+  <% if @word %>
+    <% unless @anagram_list.empty? %>
+      <h3>Anagrams for <%= @word.name %></h1>
+      <% @anagram_list.each do |word| %>
+        <p><%= word.name %></p>
+      <% end %>
+    <% else %>
+      <p>No anagrams for <%= @word.name %>.</p>
+    <% end %>
+  <% end %>
+
+ 
+  <form action="/word" method="post">
+    Pick a word:
+    <br>
+    <input type="text" name="user_input">
+    <input type="submit" value="Submit!">
+  </form>
+</div>
