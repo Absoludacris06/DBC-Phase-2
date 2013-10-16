@@ -1,7 +1,7 @@
 Week 4 Projects & Exercises
 ===========================
 
-In addition to the projects contained within this folder, here are links to additional relevant gists/repos.
+In addition to the projects contained within this folder, here are links to other relevant gists/repos.
 
 CSS exercises:
 --------------
