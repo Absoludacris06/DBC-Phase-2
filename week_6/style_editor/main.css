@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+form#style_editor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 5px 0px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(200,200,200,0.8);
+  box-shadow: inset 0px -2px 2px #aaa;
+}
