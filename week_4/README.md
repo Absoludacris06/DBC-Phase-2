@@ -18,8 +18,8 @@ Site Pagination
 
 https://gist.github.com/Absoludacris06/44d0fdb8638e4ebd8d35
 
-User Auth & Web Apps With Sinatra
-----------------------------
+User Auth & Web Apps With Sinatra:
+----------------------------------
 
 URL Shortener
 
